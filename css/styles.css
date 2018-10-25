@@ -1,0 +1,27 @@
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: silver;
+    padding:10px;
+    color: white;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
