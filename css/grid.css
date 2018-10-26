@@ -1,0 +1,18 @@
+.contains {
+    padding: 20px;
+    margin:auto;
+    display:grid;
+    background: #555555;
+    grid-template-columns: auto auto auto;
+    
+}
+.item {
+    background:#f1f1f1;
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+    width:500px;
+    border:1px solid black;
+    height:300px;
+    margin-top:20px;
+}

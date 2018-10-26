@@ -1,0 +1,12 @@
+.flex-container {
+    display:flex;
+    justify-content:center;
+    background: #555555;
+    flex-wrap: nowrap;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin:10px;
+    width:500px;
+    padding:20px;
+}

@@ -1,0 +1,91 @@
+<html style="width:1700px;border:2px solid green;margin: auto;">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Basic HTML internship">
+    <meta name="keywords" content="Homepage">
+    <meta name="author" content="Sharthak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Float Page</title>
+
+    <div style="background-color:grey;height:100px">
+        <h1 style="text-align: center;padding-top:30px;">Float Layout Page</h1>
+    </div>
+    <link href="css/styles.css" rel="stylesheet" tpe="text/css">
+</head>
+
+<body style="margin:10px 10px;">
+
+    <nav style="margin:auto;width:500px;height:80px">
+        <ul style="list-style:none;margin:0;padding:0;background-color: #f1f1f1;font-size: 24px;">
+            <li style="display:inline-block;width:160px;"><a href="index.html" class="active" style="text-decoration:none;color: #000;">Float</li></a>
+            <li style="display:inline-block;width:160px;"><a href="flex.html" style="text-decoration:none;color: #000;">Flex</li></a>
+            <li style="display:inline-block;width:160px;"><a href="grid.html" style="text-decoration:none;color: #000;">Grid</li></a>
+        </ul>
+    </nav>
+    <div>
+        <p style="text-align: center;font-size:24px;">In this page I have used <strong>FLOAT</strong> elements to <strong>two div elements</strong>. One for the table and one for the form.</p>
+    </div>
+
+    <div style="float:left;width:900px;">
+        <table style="width:100%;">
+            <tr>
+                <th>S.N</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sharthak</td>
+                <td>Sharma</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shinobi</td>
+                <td>Shathak</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Monkey</td>
+                <td>Luffy</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Vinsmoke</td>
+                <td>Sanji</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Zoro</td>
+                <td>Roronoa</td>
+            </tr>
+        </table>
+    </div>
+    <div style="float:right;width:700px;padding-bottom:20px;">
+        <form action="about.html" style="float:right;border-left:1px solid black;;margin:10px 35px 10px 35px;padding-left: 70px;">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <select name="profession">
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+            </select>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female<br>
+            <br>
+            <button type="submit" style="background-color:blue;color:white;border-radius:5px;padding:10px;">Submit</button>
+        </form>
+    </div>
+</body>
+<footer style="clear:both;">
+    <div style="background-color:grey;height:100px;">
+        <h1 style="text-align: center;padding-top:25px;">Footer</h1>
+    </div>
+</footer>
+
+</html>
