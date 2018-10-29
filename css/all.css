@@ -12,7 +12,7 @@
     color:white;
 }
 .slides{
-    height:350px;
+    height:stretch;
     margin-bottom: 15px;
     background-color:  #887766;
 }
